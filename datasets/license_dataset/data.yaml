@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: rashmi-4dvx3
+  project: ttv-glg3e
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rashmi-4dvx3/ttv-glg3e/dataset/5
