@@ -25,8 +25,8 @@ Ensure you have the following installed before setting up the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-project.git
-cd your-project
+git clone https://github.com/your-username/your-project](https://github.com/bivek-shrestha/YOLOV8-Helmet_and_License_Plate_Detection.git
+cd YOLOV8-Helmet_and_License_Plate_Detection
 ```
 
 ### 2. Install Python Dependencies
