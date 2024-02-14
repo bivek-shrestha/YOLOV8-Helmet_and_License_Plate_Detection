@@ -91,11 +91,7 @@ Modify the command based on your input image and trained weights and their direc
 I would like to thank our advisors for the proper guidance and support throughout the project. We would also convey deep gratitude to DR. Dibakar Raj Pant Phd and Er. Jit pant from Infodevelopers for their help and support in this project. It would have been a very difficult path without their effort.
 I am indebted to our advisors without whom this project would not have been successful.
 
-
-
-
-
-# Methodology
+## Methodology
 
 YOLOv8s model trained on our custom dataset detects motorcycle, car, bus, truck, license plate, and helmets. The detected objects will be  tracked using DeepSORT.The license plate is fed to the character segmentation module, and the segmented characters are sent for recognition. The output given by the character recognition model is annotated along with the plate in the video frame. 
 
@@ -105,7 +101,7 @@ YOLOv8s model trained on our custom dataset detects motorcycle, car, bus, truck,
 
 
 
-# Outputs
+## Outputs
 
 
 
