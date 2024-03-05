@@ -1,0 +1,42 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cover.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/dist/css/bootstrap.min.css') }}">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa; /* Change this to match the background color of your theme */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #007bff; /* Change this to match the color of your theme */
+        }
+
+        video {
+            width: 80%;
+            max-width: 640px;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body class="d-flex h-100 text-center text-bg-dark">
+    
+    <video width="640" height="360" controls>
+        <source src="{{ url_for('static', filename='output.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- Your existing content goes here -->
+    <script src="{{ url_for('static', filename='assets/dist/js/bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>
